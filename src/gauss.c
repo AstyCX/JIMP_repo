@@ -7,13 +7,13 @@
  */
 int eliminate(Matrix *mat, Matrix *b){
     int i, j, k;
-	int n = mat->rows;
+	int n = mat->r;
 	double M;
 	double max_val;
 	int max_row;
 
 	for(k = 0; k < n; k++){
-		max_vall = 0.0;
+		max_val = 0.0;
 		max_row = i;
 
 		for(i = k; i < n; i++){
